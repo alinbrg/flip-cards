@@ -1,0 +1,29 @@
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+h3{
+  text-align: center;
+  margin: 50px 0;
+  font-size: 50px;
+  color: rgb(31, 5, 54);
+}
+
+.grid{
+  display: flex;
+  flex-wrap: wrap;
+  height: 400px;
+  width: 400px;
+  margin: 0 auto;
+  background-color: rgb(65, 17, 110);
+}
+
+
+img{
+  width:100px;
+  height: 100px;
+  object-fit: cover;
+}
