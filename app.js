@@ -73,7 +73,7 @@ document.addEventListener('DOMContentLoaded', ()=>{
   cardArr.sort(() => 0.5 - Math.random());
 
   const grid = document.querySelector('.grid');
-  const result = document.querySelector('#result');
+  var result = document.querySelector('#result');
 
   var cardsChosen = [];
   var cardsChosenId = [];
@@ -120,10 +120,9 @@ document.addEventListener('DOMContentLoaded', ()=>{
     cardsChosenId = [];
     result.textContent = cardsWon.length;
 
-    if(cardsWon.lenght === cardArr.lenght /2){
+    if(cardsWon.length == cardArr.length/2){
       result.textContent = 'Congratulation! You found them all!';
     }
-
   }
 
 
